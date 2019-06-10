@@ -8,7 +8,10 @@
 
 <body>
     <h1>Formulário</h1>
+    <img src="img/senac.jpg" alt="Logo" width="300" height="150">
+    <br><br>
     <form>
+    
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" placeholder="Seu nome aqui..." maxlength="10" required autofocus autocomplete="on">
         <br><br>
@@ -17,9 +20,17 @@
         <br><br>
         <label for="idade">Idade</label>
         <input type="number" id="idade" name="idade" min="0" max="100" step="5">
-    
         <br><br>
+        <label for="nota">Nota</label>
+        <input type="range" id="nota" name="nota" value="5" min="0" max="5" >
+        <br><br>
+        <label for="date">Data de Nascimento</label>
+        <input type="date" id="nascimento" name="nascimento">
+         <br><br>
+         <label for="caixa"></label>
+         <input type="checkbox" name="caixa" id="caixa">
         <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
     </form>
 </body>
 
