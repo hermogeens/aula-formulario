@@ -1,0 +1,12 @@
+h1 {
+    color: white; background-color: gray; text-align: center; font-family: 'Courier New', Courier, monospace
+}
+body {
+    background-image: url(img/git.jpg)
+}
+input {
+    background-color: gray
+}
+::placeholder {
+    color: aliceblue
+}
